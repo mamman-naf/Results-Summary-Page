@@ -127,6 +127,12 @@ button {
   padding: 1rem;
   margin-top: 1rem;
 }
+button:hover{
+  background-image: linear-gradient(
+    var(--Light-slate-blue-Background),
+    var(--Light-royal-blue-Background)
+  );
+}
 
 @media screen and (min-width: 450px) {
   .container {
